@@ -55,3 +55,5 @@ print(f'a : {a}')
 # list 삭제
 del a[1]
 print(f'a : {a}')
+
+# pop() = append() 의 반대개념
