@@ -22,5 +22,3 @@ print(f'{tu2list} -> {list2tu}')
 
 
 
-
-
