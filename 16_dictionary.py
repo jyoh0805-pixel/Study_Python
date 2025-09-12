@@ -26,3 +26,10 @@ print(a)
 # 사전의 특정 요소를 꺼내보자(사용법은 List와 비슷하다.)
 print(dic2['name'])
 print(dic2['friends'])
+
+# get 메서드를 활용해서도 가져올수 있다.
+print(dic2.get('phone'))
+
+# 특정 키가 없는경우 None이 아닌 대체 내용으로 반환할수 있다.
+print(dic2.get('nick','해당 내용이 없음'))
+
