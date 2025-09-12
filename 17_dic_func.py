@@ -41,3 +41,13 @@ for key in dic.keys():
 for item in dic.items():
     print(f'{item[0]}:{item[1]}')
 
+members = {
+    'kim':63, 'lee':88,'park':97,'gang':77,'hwang':100,'ga':65,
+    'na':92,'la':90,'wang':100,'gu':79
+}
+
+# 90이상인 사람의 이름만 출력
+for item in members.items():
+    if item[1] >=90:
+        print(f'이름:{item[0]}')
+
