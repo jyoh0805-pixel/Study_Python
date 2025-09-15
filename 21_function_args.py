@@ -29,7 +29,6 @@ def dict_args(**dic):
         total += v
     # 3. 누적시킨 값을 밖으로 return 한다.
     return total
-
 # 위 함수를 실행하면 입력된 값들의 합산이 반환되도록 하세요
 result = dict_args(kim=50, lee=100, park=70, na =90)
 print(result)
