@@ -1,4 +1,4 @@
-class puppy:
+class Puppy:
 
     name="" # 멤버 변수(필드) : class 안에서 사용 가능한 변수
     goal=""
