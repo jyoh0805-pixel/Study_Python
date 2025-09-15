@@ -11,5 +11,5 @@ class Puppy:
         self.name=name
         self.goal=goal
 
-puppy = puppy("멍멍이", "집지키기")
+puppy = Puppy("멍멍이", "집지키기")
 print(f'이름:{puppy.name}/목적:{puppy.goal}')
