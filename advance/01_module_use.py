@@ -9,4 +9,4 @@ import oper as op
 print(f'minus() 함수실행 : {op.minus(10,5)}')
 
 # 변수도 불러다 사용 할 수 있다.
-print(f'op.field1: {op.field1}/ filed2: {op.field2}')
+print(f'field1: {op.field1}/ filed2: {op.field2}')
