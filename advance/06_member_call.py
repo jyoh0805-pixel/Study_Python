@@ -5,7 +5,7 @@ class Car:
 
 
     # 생성자
-    def __init__(self)
+    def __init__(self):
         pass
 
 
