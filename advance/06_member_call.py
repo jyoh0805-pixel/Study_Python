@@ -19,5 +19,9 @@ class Car:
         else:
             print(f'시동이 이미 걸려있습니다.')
 
-    def change(self):
-        pass
+    def change(self, gear):
+        print(f'{self, gear}단으로 변속했습니다.')
+        self.gear += gear
+
+# Car 클래스를 객체화(복사)
+# 객체를 통해 사용하고 싶은 멤버 호출
